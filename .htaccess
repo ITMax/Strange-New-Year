@@ -1,0 +1,17 @@
+AddDefaultCharset UTF-8
+php_flag display_errors ON
+php_value mbstring.internal_encoding UTF-8
+php_flag magic_quotes_gpc Off
+php_flag magic_quotes_runtime Off
+php_flag register_globals Off
+
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^/modules
+RewriteCond %{REQUEST_URI} !^/images
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]

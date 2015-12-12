@@ -1,0 +1,9 @@
+@font-face {
+    font-family: KelsonSans-Bold;
+    src: url('/fonts/KelsonSans/Kelson-Sans-Bold.otf');
+}
+
+@font-face {
+    font-family: KelsonSans-Regular;
+    src: url('/fonts/KelsonSans/Kelson-Sans-Regular.otf');
+}

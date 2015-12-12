@@ -1,0 +1,318 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="900" height="900" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" timelineLabelWidth="202" viewAngle3D="80.8511702896415" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <symbols>
+          <Include href="check1b.xml" loadImmediate="false" itemID="566c9a44-0000003b" lastModified="1449957956"/>
+          <Include href="santa.xml" loadImmediate="false" itemID="566c7b6e-00000010" lastModified="1449957817"/>
+          <Include href="santa_avatar.xml" loadImmediate="false" itemID="566c7c3a-0000001d" lastModified="1449950266"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Монтажный кадр 1">
+               <layers>
+                    <DOMLayer name="Script" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.events.*;
+import flash.display.MovieClip;
+
+stop();
+
+stage.addEventListener(Event.ENTER_FRAME, main);
+
+function main(e:Event){
+	
+}
+
+/* Check Blue */
+
+var chekb = 0;
+var chk_b:Array = new Array(false, false, false, false, false, false);
+var checks1:Array = new Array(check1_b, check2_b, check3_b, check4_b, check5_b, check6_b);
+
+function change1(n):void{
+	if(chk_b[n]){
+		chk_b[n] = false;
+		checks1[n].gotoAndStop(1);
+		chekb--;
+	} else{
+		if(chekb < 3){
+			chk_b[n] = true;
+			checks1[n].gotoAndStop(2);
+			chekb++;
+		}
+	}
+}
+
+check1_b.addEventListener(MouseEvent.CLICK, check1b);
+function check1b(e:MouseEvent){
+	var n = 0;
+	change1(n);
+}
+
+check2_b.addEventListener(MouseEvent.CLICK, check2b);
+function check2b(e:MouseEvent){
+	var n = 1;
+	change1(n);
+}
+
+check3_b.addEventListener(MouseEvent.CLICK, check3b);
+function check3b(e:MouseEvent){
+	var n = 2;
+	change1(n);
+}
+
+check4_b.addEventListener(MouseEvent.CLICK, check4b);
+function check4b(e:MouseEvent){
+	var n = 3;
+	change1(n);
+}
+
+check5_b.addEventListener(MouseEvent.CLICK, check5b);
+function check5b(e:MouseEvent){
+	var n = 4;
+	change1(n);
+}
+
+check6_b.addEventListener(MouseEvent.CLICK, check6b);
+function check6b(e:MouseEvent){
+	var n = 5;
+	change1(n);
+}
+
+/* Check Red */
+
+var chekr = 0;
+var chk_r:Array = new Array(false, false, false, false, false, false);
+var checks2:Array = new Array(check1_r, check2_r, check3_r, check4_r, check5_r, check6_r);
+
+function change2(n):void{
+	if(chk_r[n]){
+		chk_r[n] = false;
+		checks2[n].gotoAndStop(1);
+		chekr--;
+	} else{
+		if(chekr < 3){
+			chk_r[n] = true;
+			checks2[n].gotoAndStop(2);
+			chekr++;
+		}
+	}
+}
+
+check1_r.addEventListener(MouseEvent.CLICK, check1r);
+function check1r(e:MouseEvent){
+	var n = 0;
+	change2(n);
+}
+
+check2_r.addEventListener(MouseEvent.CLICK, check2r);
+function check2r(e:MouseEvent){
+	var n = 1;
+	change2(n);
+}
+
+check3_r.addEventListener(MouseEvent.CLICK, check3r);
+function check3r(e:MouseEvent){
+	var n = 2;
+	change2(n);
+}
+
+check4_r.addEventListener(MouseEvent.CLICK, check4r);
+function check4r(e:MouseEvent){
+	var n = 3;
+	change2(n);
+}
+
+check5_r.addEventListener(MouseEvent.CLICK, check5r);
+function check5r(e:MouseEvent){
+	var n = 4;
+	change2(n);
+}
+
+check6_r.addEventListener(MouseEvent.CLICK, check6r);
+function check6r(e:MouseEvent){
+	var n = 5;
+	change2(n);
+}
+]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Scene" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText fontRenderingMode="standard" width="100" height="45.85" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="389.95" ty="32.15"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Menu</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="38" bitmapSize="760" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText fontRenderingMode="standard" width="76" height="45.85" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="389.95" ty="94"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Blue</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="38" bitmapSize="760" face="Tahoma" fillColor="#000099"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText fontRenderingMode="standard" width="76" height="45.85" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="389.95" ty="458"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Red</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="38" bitmapSize="760" face="Tahoma" fillColor="#FF0000"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check1_b">
+                                             <matrix>
+                                                  <Matrix tx="74.25" ty="253.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check2_b">
+                                             <matrix>
+                                                  <Matrix tx="225.25" ty="253.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check3_b">
+                                             <matrix>
+                                                  <Matrix tx="382.75" ty="253.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check4_b">
+                                             <matrix>
+                                                  <Matrix tx="533.2" ty="253.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check5_b">
+                                             <matrix>
+                                                  <Matrix tx="675.2" ty="253.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check6_b">
+                                             <matrix>
+                                                  <Matrix tx="824.2" ty="253.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check1_r">
+                                             <matrix>
+                                                  <Matrix tx="74.25" ty="610.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check2_r">
+                                             <matrix>
+                                                  <Matrix tx="225.25" ty="610.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check3_r">
+                                             <matrix>
+                                                  <Matrix tx="382.75" ty="610.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check4_r">
+                                             <matrix>
+                                                  <Matrix tx="533.2" ty="610.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check5_r">
+                                             <matrix>
+                                                  <Matrix tx="675.2" ty="610.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="check1b" name="check6_r">
+                                             <matrix>
+                                                  <Matrix tx="824.2" ty="610.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Background" color="#FF800A" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="6866" publishTime="1449956630"/>
+          <PublishItem publishSize="5406" publishTime="1449956602"/>
+          <PublishItem publishSize="5406" publishTime="1449956554"/>
+          <PublishItem publishSize="6850" publishTime="1449956436"/>
+          <PublishItem publishSize="5406" publishTime="1449956411"/>
+          <PublishItem publishSize="6874" publishTime="1449956116"/>
+          <PublishItem publishSize="6868" publishTime="1449955972"/>
+          <PublishItem publishSize="6867" publishTime="1449955629"/>
+          <PublishItem publishSize="6868" publishTime="1449955474"/>
+          <PublishItem publishSize="6868" publishTime="1449955442"/>
+          <PublishItem publishSize="6859" publishTime="1449955398"/>
+          <PublishItem publishSize="6903" publishTime="1449955333"/>
+          <PublishItem publishSize="6903" publishTime="1449955311"/>
+          <PublishItem publishSize="6836" publishTime="1449954998"/>
+          <PublishItem publishSize="5406" publishTime="1449954974"/>
+          <PublishItem publishSize="5406" publishTime="1449954942"/>
+          <PublishItem publishSize="6478" publishTime="1449954651"/>
+          <PublishItem publishSize="6405" publishTime="1449954082"/>
+          <PublishItem publishSize="6117" publishTime="1449953871"/>
+          <PublishItem publishSize="6045" publishTime="1449953409"/>
+     </publishHistory>
+</DOMDocument>
