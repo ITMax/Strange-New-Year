@@ -1,43 +1,120 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="900" height="900" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" timelineLabelWidth="202" viewAngle3D="80.8511702896415" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#000000" width="900" height="900" frameRate="70" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" timelineLabelWidth="202" viewAngle3D="80.8511702896415" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <folders>
+          <DOMFolderItem name="Check_Blue" itemID="566cbdcf-00000102"/>
+          <DOMFolderItem name="Check_Red" itemID="566cbdc4-000000fe"/>
+          <DOMFolderItem name="Persons_Blue" itemID="566cd2a6-00000076"/>
+          <DOMFolderItem name="Persons_Blue/elf_person.ai Assets" itemID="566cd28c-0000003f"/>
+          <DOMFolderItem name="Persons_Blue/elf_person.ai Assets/Layer 4" itemID="566cd28c-00000040"/>
+          <DOMFolderItem name="Persons_Red" itemID="566cd276-00000028"/>
+          <DOMFolderItem name="Persons_Red/elf_person.ai Assets" itemID="566cb7ee-00000018"/>
+          <DOMFolderItem name="Persons_Red/elf_person.ai Assets/Layer 4" itemID="566cb7ee-00000019"/>
+     </folders>
+     <fonts>
+          <DOMFontItem name="Шрифт 1" itemID="566d03fe-000000c2" font="Tahoma" size="0" id="1" sourceLastImported="1449985022" embedRanges="9999"/>
+     </fonts>
+     <media>
+          <DOMBitmapItem name="Persons_Blue/elf_person.ai Assets/Layer 4/&lt;Image&gt;" itemID="566cb7ee-0000001c" sourceLastImported="1449965550" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Persons_Blue/elf_person.ai Assets/Layer 4/&amp;#060Image&amp;#062" bitmapDataHRef="M 18 1449972434.dat" frameRight="6000" frameBottom="6000"/>
+          <DOMBitmapItem name="Persons_Red/elf_person.ai Assets/Layer 4/&lt;Image&gt;" itemID="566cdd91-0000003c" sourceLastImported="1449965550" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Persons_Red/elf_person.ai Assets/Layer 4/&amp;#060Image&amp;#062" bitmapDataHRef="M 2 1449965550.dat" frameRight="6000" frameBottom="6000"/>
+          <DOMBitmapItem name="Persons_Blue/elf_person.ai Assets/Layer 4/&lt;Image&gt;_0" itemID="566cb7ee-0000001f" sourceLastImported="1449965550" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Persons_Blue/elf_person.ai Assets/Layer 4/&amp;#060Image&amp;#062_0" bitmapDataHRef="M 19 1449972434.dat" frameRight="6000" frameBottom="6000"/>
+          <DOMBitmapItem name="Persons_Red/elf_person.ai Assets/Layer 4/&lt;Image&gt;_0" itemID="566cdd91-0000003d" sourceLastImported="1449965550" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Persons_Red/elf_person.ai Assets/Layer 4/&amp;#060Image&amp;#062_0" bitmapDataHRef="M 3 1449965550.dat" frameRight="6000" frameBottom="6000"/>
+          <DOMBitmapItem name="Persons_Blue/elf_person.ai Assets/Layer 4/&lt;Image&gt;_1" itemID="566cb7ee-00000022" sourceLastImported="1449965550" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Persons_Blue/elf_person.ai Assets/Layer 4/&amp;#060Image&amp;#062_1" bitmapDataHRef="M 20 1449972434.dat" frameRight="6000" frameBottom="6000"/>
+          <DOMBitmapItem name="Persons_Red/elf_person.ai Assets/Layer 4/&lt;Image&gt;_1" itemID="566cdd91-0000003e" sourceLastImported="1449965550" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Persons_Red/elf_person.ai Assets/Layer 4/&amp;#060Image&amp;#062_1" bitmapDataHRef="M 4 1449965550.dat" frameRight="6000" frameBottom="6000"/>
+          <DOMBitmapItem name="Persons_Blue/elf_person.ai Assets/Layer 4/&lt;Image&gt;_2" itemID="566cb7ee-00000025" sourceLastImported="1449965550" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Persons_Blue/elf_person.ai Assets/Layer 4/&amp;#060Image&amp;#062_2" bitmapDataHRef="M 21 1449972434.dat" frameRight="6000" frameBottom="6000"/>
+          <DOMBitmapItem name="Persons_Red/elf_person.ai Assets/Layer 4/&lt;Image&gt;_2" itemID="566cdd91-0000003f" sourceLastImported="1449965550" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Persons_Red/elf_person.ai Assets/Layer 4/&amp;#060Image&amp;#062_2" bitmapDataHRef="M 5 1449965550.dat" frameRight="6000" frameBottom="6000"/>
+          <DOMBitmapItem name="background.png" itemID="566cdedc-00000062" sourceExternalFilepath="../single/LIBRARY/background.png" sourceLastImported="1449975015" externalFileSize="41418" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="background.png" bitmapDataHRef="M 11 1449975246.dat" frameRight="18340" frameBottom="18360"/>
+     </media>
      <symbols>
-          <Include href="check1b.xml" loadImmediate="false" itemID="566c9a44-0000003b" lastModified="1449957956"/>
-          <Include href="santa.xml" loadImmediate="false" itemID="566c7b6e-00000010" lastModified="1449957817"/>
-          <Include href="santa_avatar.xml" loadImmediate="false" itemID="566c7c3a-0000001d" lastModified="1449950266"/>
+          <Include href="boxDamagePlus.xml" loadImmediate="false" itemID="566d1c1c-00000085" lastModified="1449992680"/>
+          <Include href="but.xml" itemIcon="0" loadImmediate="false" itemID="566d13c3-00000051" lastModified="1449989071"/>
+          <Include href="Check_Blue/check1b.xml" loadImmediate="false" itemID="566cd3dd-000000f9" lastModified="1449972928"/>
+          <Include href="Check_Blue/check2b.xml" loadImmediate="false" itemID="566cd3e0-000000fa" lastModified="1449972899"/>
+          <Include href="Check_Blue/check3b.xml" loadImmediate="false" itemID="566cd3e3-000000fb" lastModified="1449972991"/>
+          <Include href="Check_Blue/check4b.xml" loadImmediate="false" itemID="566cd3e6-000000fc" lastModified="1449973058"/>
+          <Include href="Check_Blue/check5b.xml" loadImmediate="false" itemID="566cd3e8-000000fd" lastModified="1449973140"/>
+          <Include href="Check_Blue/check6b.xml" loadImmediate="false" itemID="566cd3ec-000000fe" lastModified="1449973124"/>
+          <Include href="Check_Red/check1r.xml" loadImmediate="false" itemID="566cbb9f-000000b2" lastModified="1449966495"/>
+          <Include href="Check_Red/check2r.xml" loadImmediate="false" itemID="566cbba2-000000b3" lastModified="1449966498"/>
+          <Include href="Check_Red/check3r.xml" loadImmediate="false" itemID="566cbb98-000000b0" lastModified="1449966488"/>
+          <Include href="Check_Red/check4r.xml" loadImmediate="false" itemID="566cbb96-000000af" lastModified="1449966486"/>
+          <Include href="Check_Red/check5r.xml" loadImmediate="false" itemID="566cbc8c-000000c5" lastModified="1449966772"/>
+          <Include href="Check_Red/check6r.xml" loadImmediate="false" itemID="566cbd6d-000000e5" lastModified="1449967001"/>
+          <Include href="Persons_Blue/bigfoot.xml" loadImmediate="false" itemID="566cd28c-00000044" lastModified="1449972492"/>
+          <Include href="Persons_Blue/bigfoot_avatar.xml" loadImmediate="false" itemID="566cd28c-00000045" lastModified="1449972524"/>
+          <Include href="Persons_Blue/deerapper_avatar.xml" loadImmediate="false" itemID="566cd28c-00000046" lastModified="1449972558"/>
+          <Include href="Persons_Blue/deerrapper.xml" loadImmediate="false" itemID="566cd28c-00000047" lastModified="1449977022"/>
+          <Include href="Persons_Blue/elf.xml" loadImmediate="false" itemID="566cd28c-00000048" lastModified="1449972585"/>
+          <Include href="Persons_Blue/elf_avatar.xml" loadImmediate="false" itemID="566cd28c-0000004d" lastModified="1449972594"/>
+          <Include href="Persons_Blue/programmer.xml" loadImmediate="false" itemID="566cd28c-0000004e" lastModified="1449972602"/>
+          <Include href="Persons_Blue/programmer_avatar.xml" loadImmediate="false" itemID="566cd28c-0000004f" lastModified="1449972613"/>
+          <Include href="Persons_Blue/santa.xml" loadImmediate="false" itemID="566cd28c-00000050" lastModified="1449972619"/>
+          <Include href="Persons_Blue/santa_avatar.xml" loadImmediate="false" itemID="566cd28c-00000051" lastModified="1449972653"/>
+          <Include href="Persons_Blue/snowman.xml" loadImmediate="false" itemID="566cd28c-00000052" lastModified="1449972660"/>
+          <Include href="Persons_Blue/snowman_avatar.xml" loadImmediate="false" itemID="566cd28c-00000053" lastModified="1449972663"/>
+          <Include href="Persons_Red/bigfoot.xml" loadImmediate="false" itemID="566cbd27-000000d5" lastModified="1449990458"/>
+          <Include href="Persons_Red/bigfoot_avatar.xml" loadImmediate="false" itemID="566cbd5f-000000da" lastModified="1449966943"/>
+          <Include href="Persons_Red/deerapper_avatar.xml" loadImmediate="false" itemID="566cbb28-00000097" lastModified="1449966376"/>
+          <Include href="Persons_Red/deerrapper.xml" loadImmediate="false" itemID="566cbae8-00000092" lastModified="1449990465"/>
+          <Include href="Persons_Red/elf.xml" loadImmediate="false" itemID="566cb7df-00000017" lastModified="1449965678"/>
+          <Include href="Persons_Red/elf_avatar.xml" loadImmediate="false" itemID="566cb86c-00000035" lastModified="1449965676"/>
+          <Include href="Persons_Red/programmer.xml" loadImmediate="false" itemID="566cb9e3-00000064" lastModified="1449966071"/>
+          <Include href="Persons_Red/programmer_avatar.xml" loadImmediate="false" itemID="566cb9f0-00000065" lastModified="1449966064"/>
+          <Include href="Persons_Red/santa.xml" loadImmediate="false" itemID="566c7b6e-00000010" lastModified="1449957817"/>
+          <Include href="Persons_Red/santa_avatar.xml" loadImmediate="false" itemID="566c7c3a-0000001d" lastModified="1449950266"/>
+          <Include href="Persons_Red/snowman.xml" loadImmediate="false" itemID="566cbc54-000000b5" lastModified="1449966723"/>
+          <Include href="Persons_Red/snowman_avatar.xml" loadImmediate="false" itemID="566cbc82-000000ba" lastModified="1449966722"/>
+          <Include href="point.xml" itemID="566cdedb-0000005f" lastModified="1449975515"/>
+          <Include href="Symbol 1.xml" loadImmediate="false" itemID="566d1aad-00000080" lastModified="1449990829"/>
+          <Include href="Tween 3.xml" itemIcon="1" loadImmediate="false" itemID="566d0ee8-00000048" lastModified="1449987816"/>
+          <Include href="Tween 4.xml" itemIcon="1" loadImmediate="false" itemID="566d1290-0000004c" lastModified="1449988752"/>
+          <Include href="Tween 5.xml" itemIcon="1" loadImmediate="false" itemID="566d1733-00000057" lastModified="1449989939"/>
+          <Include href="Tween 6.xml" itemIcon="1" loadImmediate="false" itemID="566d1735-0000005b" lastModified="1449989941"/>
+          <Include href="Tween 7.xml" itemIcon="1" loadImmediate="false" itemID="566d17e6-00000065" lastModified="1449990118"/>
+          <Include href="Tween 8.xml" itemIcon="1" loadImmediate="false" itemID="566d17e6-00000069" lastModified="1449990118"/>
+          <Include href="Tween 9.xml" itemIcon="1" loadImmediate="false" itemID="566d17ef-0000006d" lastModified="1449990127"/>
+          <Include href="Tween 10.xml" itemIcon="1" loadImmediate="false" itemID="566d180a-00000071" lastModified="1449990154"/>
+          <Include href="Tween 11.xml" itemIcon="1" loadImmediate="false" itemID="566d180a-00000075" lastModified="1449990154"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Монтажный кадр 1">
+          <DOMTimeline name="Монтажный кадр 1" currentFrame="1">
                <layers>
-                    <DOMLayer name="Script" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Script" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.*;
 import flash.display.MovieClip;
+import fl.motion.MotionEvent;
 
 stop();
-
+/*
 stage.addEventListener(Event.ENTER_FRAME, main);
-
 function main(e:Event){
 	
 }
+*/
 
 /* Check Blue */
-
 var chekb = 0;
 var chk_b:Array = new Array(false, false, false, false, false, false);
 var checks1:Array = new Array(check1_b, check2_b, check3_b, check4_b, check5_b, check6_b);
+var pids1:Array = new Array();
 
 function change1(n):void{
 	if(chk_b[n]){
 		chk_b[n] = false;
 		checks1[n].gotoAndStop(1);
 		chekb--;
+		pids1 = new Array();
 	} else{
-		if(chekb < 3){
+		if(chekb < 1){
 			chk_b[n] = true;
 			checks1[n].gotoAndStop(2);
 			chekb++;
+			pids1 = new Array();
+			for(var ij = 0; ij < 6; ij++){
+				if(chk_b[ij])
+					pids1.push(ij+1);
+			}
 		}
 	}
 }
@@ -83,17 +160,24 @@ function check6b(e:MouseEvent){
 var chekr = 0;
 var chk_r:Array = new Array(false, false, false, false, false, false);
 var checks2:Array = new Array(check1_r, check2_r, check3_r, check4_r, check5_r, check6_r);
+var pids2:Array = new Array();
 
 function change2(n):void{
 	if(chk_r[n]){
 		chk_r[n] = false;
 		checks2[n].gotoAndStop(1);
 		chekr--;
+		pids2 = new Array();
 	} else{
-		if(chekr < 3){
+		if(chekr < 1){
 			chk_r[n] = true;
 			checks2[n].gotoAndStop(2);
 			chekr++;
+			pids2 = new Array();
+			for(var ij1 = 0; ij1 < 6; ij1++){
+				if(chk_r[ij1])
+					pids2.push(ij1+1);
+			}
 		}
 	}
 }
@@ -133,8 +217,866 @@ function check6r(e:MouseEvent){
 	var n = 5;
 	change2(n);
 }
+
+butfuck.addEventListener(MouseEvent.CLICK, nextb);
+
+function nextb(e:MouseEvent){
+	 gotoAndStop(this.currentFrame+1);
+}
 ]]></script>
                                    </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.events.Event;
+
+stop();
+
+var points = new Array();
+var i = 1;
+var px, py, px1, py1;
+var sp = p1, fp = null, sp1 = p20, fp1 = null;
+var sto1, sto2;
+var queue = 1;
+var pers_b:Array = new Array(santa_b, elf_b, programmer_b, deerrapper_b, snowman_b, bigfoot_b);
+var pers_r:Array = new Array(santa_r, elf_r, programmer_r, deerrapper_r, snowman_r, bigfoot_r);
+
+var pers1 = pers_b[pids1[0]-1];
+
+pers1.x = sp.x;
+pers1.y = sp.y;
+pers1.energy = 10;
+pers1.hp = 100;
+pers1.damage = 30;
+pers1.coins = 0;
+
+var pers2 = pers_r[pids2[0]-1];
+
+pers2.x = sp1.x;
+pers2.y = sp1.y;
+pers2.energy = 0;
+pers2.hp = 100;
+pers2.damage = 30;
+pers2.coins = 0;
+
+money1.addEventListener(Event.ENTER_FRAME, money1k);
+function money1k(e:Event){
+	if(pers1.hitTestObject(money1)){
+		removeChild(money1);
+		pers1.coins += 5;
+		money1.removeEventListener(Event.ENTER_FRAME, money1k);
+	}
+	
+	if(pers2.hitTestObject(money1)){			
+		removeChild(money1);
+		pers2.coins += 5;
+		money1.removeEventListener(Event.ENTER_FRAME, money1k);
+	}
+}
+
+money2.addEventListener(Event.ENTER_FRAME, money2k);
+function money2k(e:Event){
+	if(pers1.hitTestObject(money2)){
+		removeChild(money2);
+		pers1.coins += 5;
+		money2.removeEventListener(Event.ENTER_FRAME, money2k);
+	}
+	if(pers2.hitTestObject(money2)){
+		removeChild(money2);
+		pers2.coins += 5;
+		money2.removeEventListener(Event.ENTER_FRAME, money2k);
+	}
+}
+
+damage1.addEventListener(Event.ENTER_FRAME, damage1k);
+function damage1k(e:Event){
+	if(pers1.hitTestObject(damage1)){
+		removeChild(damage1);
+		pers1.damage += 10;
+		damage1.removeEventListener(Event.ENTER_FRAME, damage1k);
+	}
+	if(pers2.hitTestObject(damage1)){
+		removeChild(damage1);
+		pers2.damage += 10;
+		damage1.removeEventListener(Event.ENTER_FRAME, damage1k);
+	}
+}
+
+damage2.addEventListener(Event.ENTER_FRAME, damage2k);
+function damage2k(e:Event){
+	if(pers1.hitTestObject(damage2)){
+		removeChild(damage2);
+		pers1.damage += 10;
+		damage2.removeEventListener(Event.ENTER_FRAME, damage2k);
+	}
+	if(pers2.hitTestObject(damage2)){
+		removeChild(damage2);
+		pers2.damage += 10;
+		damage2.removeEventListener(Event.ENTER_FRAME, damage2k);
+	}
+}
+
+damage3.addEventListener(Event.ENTER_FRAME, damage3k);
+function damage3k(e:Event){
+	if(pers2.hitTestObject(damage3)){
+		removeChild(damage3);
+		pers2.damage3 += 10;
+		damage3.removeEventListener(Event.ENTER_FRAME, damage3k);
+	}
+	if(pers2.hitTestObject(damage3)){
+		removeChild(damage3);
+		pers2.damage3 += 10;
+		damage3.removeEventListener(Event.ENTER_FRAME, damage3k);
+	}
+}
+
+pers1.addEventListener(MouseEvent.CLICK, fight1);
+pers2.addEventListener(MouseEvent.CLICK, fight);
+function fight(e:MouseEvent){
+	var enemy = e.target;
+	if(queue == 2){
+		enemy.hp -= pers1.damage;
+		queue = 1;
+	}
+	if(pers2.hp < 0){
+		removeChild(pers2);
+		pers2 = null;
+		pers2.hp = 0;
+		pers2.energy = 0;
+		pers2.damage = 0;
+	}
+}
+
+function fight1(e:MouseEvent){
+	var enemy = e.target;
+	if(queue == 1){
+		enemy.hp -= pers2.damage;
+		queue = 2;
+	}
+	if(pers1.hp < 0){
+		removeChild(pers1);
+		pers1 = null;
+		pers1.hp = 0;
+		pers1.energy = 0;
+		pers1.damage = 0;
+	}
+}	
+
+
+
+stage.addEventListener(Event.ENTER_FRAME, main);
+function main(e:Event){
+	try{
+		px = pers1.x;
+		py = pers1.y;
+		
+		en1.text = "Energy: " + pers1.energy;
+		en2.text = "Energy: " + pers2.energy;
+		
+		hp1.text = "Hp: " + pers1.hp;
+		hp2.text = "Hp: " + pers2.hp;
+		
+		dmg1.text = "Damage: " + pers1.damage;
+		dmg2.text = "Damage: " + pers2.damage;
+		
+		cn1.text = "Coins: " + pers1.coins;
+		cn2.text = "Coins: " + pers2.coins;
+		
+		if(pers1.energy > 0)
+			if(sto1 < sto2){
+				moveP(sto2);
+			} else{
+				moveP(sto1);
+			}
+		
+		px1 = pers2.x;
+		py1 = pers2.y;
+		if(pers2.energy > 0)
+			if(sto1 < sto2){
+				moveP1(sto2);
+			} else{
+				moveP1(sto1);
+			}
+		
+	} catch(err:Error) {
+		
+	}
+	
+}
+
+
+stage.addEventListener(MouseEvent.CLICK, getPoint);
+function getPoint(e:MouseEvent){
+	if(e.target == "[object point]"){
+		points = new Array();
+		i = 1;
+		if(pers1.energy > 0){
+			fp = e.target;
+			sto1 = sp.name.split('p')[1];
+			sto2 = fp.name.split('p')[1];
+		}
+		
+		if(pers2.energy > 0){
+			fp1 = e.target;
+			sto1 = sp1.name.split('p')[1];
+			sto2 = fp1.name.split('p')[1];
+		}
+		
+		if(sto1 < sto2){
+			for(var ip = sto1; ip <= sto2; ip++){
+				points.push(root['p' + ip]);
+			}
+		} else {
+			for(var ip1 = sto1; ip1 >= sto2; ip1--){
+				points.push(root['p' + ip1]);
+			}
+		}
+	}
+	
+	
+	
+}
+
+function moveP(n){
+	var pxb = false, pyb = false;
+	var speed = 1;
+	
+	if(i <= n){
+		if(px != points[i].x){
+			if(px < points[i].x){
+				pers1.x += speed;
+			} else{
+				pers1.x -= speed;	
+			}
+		} else {
+			pxb = true;
+		}
+		
+	}
+		
+	
+	if(i <= n){
+		if(py != points[i].y){
+			if(py < points[i].y){
+					pers1.y += speed;
+				} else{
+					pers1.y -= speed;	
+				}
+		} else {
+			pyb = true;
+		}
+		
+	}
+		
+	
+	
+	if(pxb && pyb){
+		pers1.energy--;
+		if(pers1.energy <= 0){
+			pers2.energy = 10;
+			points = new Array();
+		}
+		i++;
+		pxb = false;
+		pyb = false;
+		sp = fp;
+	}
+}
+
+
+function moveP1(n){
+	var pxb = false, pyb = false;
+	var speed = 1;
+	
+	if(i <= n)
+		if(px1 != points[i].x){
+			if(px1 < points[i].x){
+				pers2.x += speed;
+			} else{
+				pers2.x -= speed;	
+			}
+		} else {
+			pxb = true;
+		}
+	
+	if(i <= n)
+		if(py1 != points[i].y){
+			if(py1 < points[i].y){
+					pers2.y += speed;
+				} else{
+					pers2.y -= speed;	
+				}
+		} else {
+			pyb = true;
+		}
+	
+	
+	if(pxb && pyb){
+		pers2.energy--;
+		if(pers2.energy <= 0){
+			pers1.energy = 10;
+			points = new Array();
+		}
+		i++;
+		pxb = false;
+		pyb = false;
+		sp1 = fp1;
+	}
+}
+
+]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Слой 2" color="#9933CC">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1" name="money1">
+                                             <matrix>
+                                                  <Matrix a="0.841262817382813" d="0.841262817382813" tx="590" ty="494"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="boxDamagePlus" name="damage3">
+                                             <matrix>
+                                                  <Matrix a="0.81817626953125" d="0.81817626953125" tx="187.25" ty="642.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText name="en1" fontRenderingMode="standard" width="153.4" height="18.1">
+                                             <matrix>
+                                                  <Matrix tx="25.1" ty="3.85"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="hp1" fontRenderingMode="standard" width="153.4" height="23.3">
+                                             <matrix>
+                                                  <Matrix tx="25.1" ty="25.95"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="en2" fontRenderingMode="standard" width="153.4" height="23.3">
+                                             <matrix>
+                                                  <Matrix tx="740.8" ty="3.85"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="dmg1" fontRenderingMode="standard" width="153.4" height="23.3">
+                                             <matrix>
+                                                  <Matrix tx="25.1" ty="50.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="cn1" fontRenderingMode="standard" width="153.4" height="23.3">
+                                             <matrix>
+                                                  <Matrix tx="25.1" ty="72.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="hp2" fontRenderingMode="standard" width="153.4" height="23.3">
+                                             <matrix>
+                                                  <Matrix tx="740.8" ty="25.95"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="dmg2" fontRenderingMode="standard" width="153.4" height="23.3">
+                                             <matrix>
+                                                  <Matrix tx="740.8" ty="50.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="cn2" fontRenderingMode="standard" width="153.4" height="23.3">
+                                             <matrix>
+                                                  <Matrix tx="740.8" ty="72.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1" name="money2">
+                                             <matrix>
+                                                  <Matrix a="0.841262817382813" d="0.841262817382813" tx="316" ty="404"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="boxDamagePlus" name="damage2">
+                                             <matrix>
+                                                  <Matrix a="0.81817626953125" d="0.81817626953125" tx="342" ty="215.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText fontRenderingMode="standard" width="62.6" height="45.85">
+                                             <matrix>
+                                                  <Matrix a="3.82691955566406" d="3.82691955566406" tx="329.6" ty="460.25"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Win</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="38" bitmapSize="760" face="Tahoma" fillColor="#009900"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Слой 1" color="#4F80FF">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Persons_Blue/bigfoot" name="bigfoot_b">
+                                             <matrix>
+                                                  <Matrix a="0.090362548828125" d="0.090362548828125" tx="-602.8" ty="-36.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="3.3" y="-18.8"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Blue/deerrapper" name="deerrapper_b">
+                                             <matrix>
+                                                  <Matrix a="0.162094116210938" d="0.162094116210938" tx="-707.2" ty="-42.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Blue/elf" name="elf_b">
+                                             <matrix>
+                                                  <Matrix a="0.108779907226563" d="0.108779907226563" tx="-845.1" ty="-33.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-11.5" y="24.8"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Blue/programmer" name="programmer_b">
+                                             <matrix>
+                                                  <Matrix a="0.228515625" d="0.228515625" tx="-528.35" ty="-28.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="3.3" y="0.65"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Blue/santa" name="santa_b">
+                                             <matrix>
+                                                  <Matrix a="0.236618041992188" d="0.236618041992188" tx="-948.25" ty="-34.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-0.4" y="6.55"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Blue/snowman" name="snowman_b">
+                                             <matrix>
+                                                  <Matrix a="0.108932495117188" d="0.108932495117188" tx="-1041.35" ty="-29.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-5.05"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Red/bigfoot" name="bigfoot_r">
+                                             <matrix>
+                                                  <Matrix a="0.09039306640625" d="0.09039306640625" tx="-602.8" ty="167.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="3.3" y="-18.8"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Red/programmer" name="programmer_r">
+                                             <matrix>
+                                                  <Matrix a="0.228439331054688" d="0.228561401367188" tx="-528.35" ty="171"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="3.5" y="0.65"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Red/deerrapper" name="deerrapper_r">
+                                             <matrix>
+                                                  <Matrix a="0.162078857421875" d="0.162078857421875" tx="-693.2" ty="153.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Red/elf" name="elf_r">
+                                             <matrix>
+                                                  <Matrix a="0.108779907226563" d="0.108779907226563" tx="-845.1" ty="140.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-11.05" y="24.8"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Red/santa" name="santa_r">
+                                             <matrix>
+                                                  <Matrix a="0.236679077148438" d="0.236557006835938" tx="-948.25" ty="140.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-0.4" y="6.55"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Persons_Red/snowman" name="snowman_r">
+                                             <matrix>
+                                                  <Matrix a="0.108932495117188" d="0.108917236328125" tx="-1041.35" ty="133.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-5.05" y="0.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Point" color="#4F80FF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="point" name="p1">
+                                             <matrix>
+                                                  <Matrix tx="299" ty="763"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p2">
+                                             <matrix>
+                                                  <Matrix tx="358" ty="804"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p3">
+                                             <matrix>
+                                                  <Matrix tx="424" ty="828"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p4">
+                                             <matrix>
+                                                  <Matrix tx="516" ty="828"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p5">
+                                             <matrix>
+                                                  <Matrix tx="668" ty="804"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p6">
+                                             <matrix>
+                                                  <Matrix tx="673" ty="662"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p7">
+                                             <matrix>
+                                                  <Matrix tx="584" ty="624"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p8">
+                                             <matrix>
+                                                  <Matrix tx="509" ty="643"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p9">
+                                             <matrix>
+                                                  <Matrix tx="468" ty="595"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p10">
+                                             <matrix>
+                                                  <Matrix tx="516" ty="530"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p11">
+                                             <matrix>
+                                                  <Matrix tx="590" ty="496"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p12">
+                                             <matrix>
+                                                  <Matrix tx="654" ty="430"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p13">
+                                             <matrix>
+                                                  <Matrix tx="706" ty="362"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p14">
+                                             <matrix>
+                                                  <Matrix tx="687" ty="272"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p15">
+                                             <matrix>
+                                                  <Matrix tx="595" ty="253"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p16">
+                                             <matrix>
+                                                  <Matrix tx="509" ty="310"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p17">
+                                             <matrix>
+                                                  <Matrix tx="449" ty="368"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p18">
+                                             <matrix>
+                                                  <Matrix tx="318" ty="407"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p19">
+                                             <matrix>
+                                                  <Matrix tx="233" ty="368"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p20">
+                                             <matrix>
+                                                  <Matrix tx="243" ty="277"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p21">
+                                             <matrix>
+                                                  <Matrix tx="343" ty="215"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p22">
+                                             <matrix>
+                                                  <Matrix tx="343" ty="117"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p23">
+                                             <matrix>
+                                                  <Matrix tx="233" ty="128"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p24">
+                                             <matrix>
+                                                  <Matrix tx="148" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p25">
+                                             <matrix>
+                                                  <Matrix tx="98" ty="253"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p26">
+                                             <matrix>
+                                                  <Matrix tx="67" ty="335"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p27">
+                                             <matrix>
+                                                  <Matrix tx="48" ty="417"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p28">
+                                             <matrix>
+                                                  <Matrix tx="86" ty="515"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p30">
+                                             <matrix>
+                                                  <Matrix tx="187" ty="643"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p31">
+                                             <matrix>
+                                                  <Matrix tx="228" ty="681"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p32">
+                                             <matrix>
+                                                  <Matrix tx="262" ty="724"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p29">
+                                             <matrix>
+                                                  <Matrix tx="140" ty="576"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -156,33 +1098,20 @@ function check6r(e:MouseEvent){
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMDynamicText>
-                                        <DOMDynamicText fontRenderingMode="standard" width="76" height="45.85" isSelectable="false">
+                                        <DOMDynamicText selected="true" fontRenderingMode="standard" width="92.75" height="45.85">
                                              <matrix>
-                                                  <Matrix tx="389.95" ty="94"/>
+                                                  <Matrix tx="382.2" ty="480"/>
                                              </matrix>
                                              <textRuns>
                                                   <DOMTextRun>
-                                                       <characters>Blue</characters>
+                                                       <characters>BLUE</characters>
                                                        <textAttrs>
-                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="38" bitmapSize="760" face="Tahoma" fillColor="#000099"/>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="38" bitmapSize="760" face="Tahoma" fillColor="#FFFFFF"/>
                                                        </textAttrs>
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMDynamicText>
-                                        <DOMDynamicText fontRenderingMode="standard" width="76" height="45.85" isSelectable="false">
-                                             <matrix>
-                                                  <Matrix tx="389.95" ty="458"/>
-                                             </matrix>
-                                             <textRuns>
-                                                  <DOMTextRun>
-                                                       <characters>Red</characters>
-                                                       <textAttrs>
-                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="38" bitmapSize="760" face="Tahoma" fillColor="#FF0000"/>
-                                                       </textAttrs>
-                                                  </DOMTextRun>
-                                             </textRuns>
-                                        </DOMDynamicText>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check1_b">
+                                        <DOMSymbolInstance libraryItemName="Check_Red/check1r" name="check1_r">
                                              <matrix>
                                                   <Matrix tx="74.25" ty="253.2"/>
                                              </matrix>
@@ -190,7 +1119,7 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check2_b">
+                                        <DOMSymbolInstance libraryItemName="Check_Red/check2r" name="check2_r">
                                              <matrix>
                                                   <Matrix tx="225.25" ty="253.2"/>
                                              </matrix>
@@ -198,7 +1127,7 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check3_b">
+                                        <DOMSymbolInstance libraryItemName="Check_Red/check3r" name="check3_r">
                                              <matrix>
                                                   <Matrix tx="382.75" ty="253.2"/>
                                              </matrix>
@@ -206,7 +1135,7 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check4_b">
+                                        <DOMSymbolInstance libraryItemName="Check_Red/check4r" name="check4_r">
                                              <matrix>
                                                   <Matrix tx="533.2" ty="253.2"/>
                                              </matrix>
@@ -214,7 +1143,7 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check5_b">
+                                        <DOMSymbolInstance libraryItemName="Check_Red/check5r" name="check5_r">
                                              <matrix>
                                                   <Matrix tx="675.2" ty="253.2"/>
                                              </matrix>
@@ -222,7 +1151,7 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check6_b">
+                                        <DOMSymbolInstance libraryItemName="Check_Red/check6r" name="check6_r">
                                              <matrix>
                                                   <Matrix tx="824.2" ty="253.2"/>
                                              </matrix>
@@ -230,7 +1159,20 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check1_r">
+                                        <DOMDynamicText fontRenderingMode="standard" width="92.15" height="49.45">
+                                             <matrix>
+                                                  <Matrix tx="382.8" ty="119.7"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>RED</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="41" bitmapSize="820" face="Tahoma" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="Check_Blue/check1b" name="check1_b">
                                              <matrix>
                                                   <Matrix tx="74.25" ty="610.15"/>
                                              </matrix>
@@ -238,7 +1180,7 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check2_r">
+                                        <DOMSymbolInstance libraryItemName="Check_Blue/check2b" name="check2_b">
                                              <matrix>
                                                   <Matrix tx="225.25" ty="610.15"/>
                                              </matrix>
@@ -246,7 +1188,7 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check3_r">
+                                        <DOMSymbolInstance libraryItemName="Check_Blue/check3b" name="check3_b">
                                              <matrix>
                                                   <Matrix tx="382.75" ty="610.15"/>
                                              </matrix>
@@ -254,15 +1196,15 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check4_r">
+                                        <DOMSymbolInstance libraryItemName="Check_Blue/check4b" name="check4_b">
                                              <matrix>
-                                                  <Matrix tx="533.2" ty="610.15"/>
+                                                  <Matrix tx="533.2" ty="609.15"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check5_r">
+                                        <DOMSymbolInstance libraryItemName="Check_Blue/check5b" name="check5_b">
                                              <matrix>
                                                   <Matrix tx="675.2" ty="610.15"/>
                                              </matrix>
@@ -270,7 +1212,7 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="check1b" name="check6_r">
+                                        <DOMSymbolInstance libraryItemName="Check_Blue/check6b" name="check6_b">
                                              <matrix>
                                                   <Matrix tx="824.2" ty="610.15"/>
                                              </matrix>
@@ -278,13 +1220,34 @@ function check6r(e:MouseEvent){
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="but" name="butfuck" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.484207153320313" d="0.484207153320313" tx="683.65" ty="834.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="Background" color="#FF800A" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="background.png">
+                                             <matrix>
+                                                  <Matrix ty="-18"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMSymbolInstance libraryItemName="boxDamagePlus" name="damage1">
+                                             <matrix>
+                                                  <Matrix a="0.81817626953125" d="0.81817626953125" tx="688.25" ty="268.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -292,27 +1255,30 @@ function check6r(e:MouseEvent){
                </layers>
           </DOMTimeline>
      </timelines>
+     <persistentData>
+          <PD n="com.air.sdk.path"/>
+     </persistentData>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="6866" publishTime="1449956630"/>
-          <PublishItem publishSize="5406" publishTime="1449956602"/>
-          <PublishItem publishSize="5406" publishTime="1449956554"/>
-          <PublishItem publishSize="6850" publishTime="1449956436"/>
-          <PublishItem publishSize="5406" publishTime="1449956411"/>
-          <PublishItem publishSize="6874" publishTime="1449956116"/>
-          <PublishItem publishSize="6868" publishTime="1449955972"/>
-          <PublishItem publishSize="6867" publishTime="1449955629"/>
-          <PublishItem publishSize="6868" publishTime="1449955474"/>
-          <PublishItem publishSize="6868" publishTime="1449955442"/>
-          <PublishItem publishSize="6859" publishTime="1449955398"/>
-          <PublishItem publishSize="6903" publishTime="1449955333"/>
-          <PublishItem publishSize="6903" publishTime="1449955311"/>
-          <PublishItem publishSize="6836" publishTime="1449954998"/>
-          <PublishItem publishSize="5406" publishTime="1449954974"/>
-          <PublishItem publishSize="5406" publishTime="1449954942"/>
-          <PublishItem publishSize="6478" publishTime="1449954651"/>
-          <PublishItem publishSize="6405" publishTime="1449954082"/>
-          <PublishItem publishSize="6117" publishTime="1449953871"/>
-          <PublishItem publishSize="6045" publishTime="1449953409"/>
+          <PublishItem publishSize="305461" publishTime="1450002024"/>
+          <PublishItem publishSize="305172" publishTime="1450001898"/>
+          <PublishItem publishSize="305174" publishTime="1450001794"/>
+          <PublishItem publishSize="305173" publishTime="1450001650"/>
+          <PublishItem publishSize="305178" publishTime="1450001607"/>
+          <PublishItem publishSize="305333" publishTime="1450001254"/>
+          <PublishItem publishSize="305285" publishTime="1450001101"/>
+          <PublishItem publishSize="305279" publishTime="1450000933"/>
+          <PublishItem publishSize="305275" publishTime="1450000870"/>
+          <PublishItem publishSize="305255" publishTime="1450000798"/>
+          <PublishItem publishSize="305266" publishTime="1450000728"/>
+          <PublishItem publishSize="305149" publishTime="1450000232"/>
+          <PublishItem publishSize="305149" publishTime="1450000198"/>
+          <PublishItem publishSize="305149" publishTime="1450000019"/>
+          <PublishItem publishSize="305149" publishTime="1449999990"/>
+          <PublishItem publishSize="305149" publishTime="1449999767"/>
+          <PublishItem publishSize="305136" publishTime="1449999699"/>
+          <PublishItem publishSize="300862" publishTime="1449999671"/>
+          <PublishItem publishSize="305091" publishTime="1449999496"/>
+          <PublishItem publishSize="305091" publishTime="1449999481"/>
      </publishHistory>
 </DOMDocument>

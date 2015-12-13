@@ -10,7 +10,7 @@
     if (empty($_SESSION['id']) and empty($_SESSION['username'])) {
       include('authreg.php');
     } else {
-      
+      include('inlogin.php');
     }
   ?>
 </body>

@@ -4,9 +4,27 @@ body {
     background: url('/images/pattern_2.png');
 }
 
-input {
-  -webkit-text-security: none;
-  content: "❖";
+button {
+    margin: 10px 0 0 0;
+    background: #6e6eff;
+    color: #fff;
+    width: 270px;
+    height: 52px;
+    border-radius: 7px;
+    font-size: 21px;
+    font-family: KelsonSans-Bold;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button:hover {
+    background: #976eff;
+}
+
+embed {
+  margin: 10px 0 0 -165px;
 }
 
 .container {
@@ -64,25 +82,6 @@ input {
 
 .signup {
     float: right;
-}
-
-.fblock > button {
-    margin: 10px 0 0 0;
-    background: #6e6eff;
-    color: #fff;
-    width: 270px;
-    height: 52px;
-    border-radius: 7px;
-    font-size: 21px;
-    font-family: KelsonSans-Bold;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    transition: .4s;
-}
-
-.fblock > button:hover {
-    background: #976eff;
 }
 
 .f1 {

@@ -18,14 +18,14 @@
     <jpegDefaultName>1</jpegDefaultName>
     <pngDefaultName>1</pngDefaultName>
     <swcDefaultName>1</swcDefaultName>
-    <flashFileName>single.swf</flashFileName>
-    <projectorWinFileName>single.exe</projectorWinFileName>
-    <projectorMacFileName>single.app</projectorMacFileName>
-    <htmlFileName>single.html</htmlFileName>
-    <gifFileName>single.gif</gifFileName>
-    <jpegFileName>single.jpg</jpegFileName>
-    <pngFileName>single.png</pngFileName>
-    <swcFileName>single.swc</swcFileName>
+    <flashFileName>single2.swf</flashFileName>
+    <projectorWinFileName>single2.exe</projectorWinFileName>
+    <projectorMacFileName>single2.app</projectorMacFileName>
+    <htmlFileName>single2.html</htmlFileName>
+    <gifFileName>single2.gif</gifFileName>
+    <jpegFileName>single2.jpg</jpegFileName>
+    <pngFileName>single2.png</pngFileName>
+    <swcFileName>single2.swc</swcFileName>
     <publishFormat id="BBC1F406-65F2-4219-9304-FA48C7549E44">0</publishFormat>
   </PublishFormatProperties>
   <PublishHtmlProperties enabled="true">
@@ -33,12 +33,12 @@
     <VersionInfo>16,0,0,0;14,0,0,0;13,0,0,0;12,0,0,0;11,9,0,0;11,8,0,0;11,7,0,0;11,6,0,0;11,5,0,0;11,4,0,0;11,3,0,0;11,2,0,0;11,1,0,0;10,3,0,0;10,2,153,0;10,1,52,0;9,0,124,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;</VersionInfo>
     <UsingDefaultContentFilename>1</UsingDefaultContentFilename>
     <UsingDefaultAlternateFilename>1</UsingDefaultAlternateFilename>
-    <ContentFilename>single_content.html</ContentFilename>
-    <AlternateFilename>single_alternate.html</AlternateFilename>
+    <ContentFilename>single2_content.html</ContentFilename>
+    <AlternateFilename>single2_alternate.html</AlternateFilename>
     <UsingOwnAlternateFile>0</UsingOwnAlternateFile>
     <OwnAlternateFilename></OwnAlternateFilename>
-    <Width>900</Width>
-    <Height>900</Height>
+    <Width>550</Width>
+    <Height>400</Height>
     <Align>0</Align>
     <Units>0</Units>
     <Loop>1</Loop>
@@ -67,8 +67,8 @@
     <EventFormat>0</EventFormat>
     <EventCompress>7</EventCompress>
     <OverrideSounds>0</OverrideSounds>
-    <Version>27</Version>
-    <ExternalPlayer>FlashPlayer16.0</ExternalPlayer>
+    <Version>25</Version>
+    <ExternalPlayer>FlashPlayer14.0</ExternalPlayer>
     <ActionScriptVersion>3</ActionScriptVersion>
     <PackageExportFrame>1</PackageExportFrame>
     <PackagePaths></PackagePaths>
@@ -110,8 +110,8 @@
     <TelemetryPassword></TelemetryPassword>
   </PublishFlashProperties>
   <PublishJpegProperties enabled="true">
-    <Width>900</Width>
-    <Height>900</Height>
+    <Width>550</Width>
+    <Height>400</Height>
     <Progressive>0</Progressive>
     <DPI>4718592</DPI>
     <Size>0</Size>
@@ -119,8 +119,8 @@
     <MatchMovieDim>1</MatchMovieDim>
   </PublishJpegProperties>
   <PublishGifProperties enabled="true">
-    <Width>900</Width>
-    <Height>900</Height>
+    <Width>550</Width>
+    <Height>400</Height>
     <Animated>0</Animated>
     <MatchMovieDim>1</MatchMovieDim>
     <Loop>1</Loop>

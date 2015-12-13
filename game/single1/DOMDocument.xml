@@ -1,11 +1,146 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="900" height="900" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" viewAngle3D="80.8511702896415" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <symbols>
+          <Include href="cube.xml" loadImmediate="false" itemID="566ca2cc-00000013" lastModified="1449960140"/>
+          <Include href="point.xml" itemID="566c9b39-00000005" lastModified="1449959669"/>
+     </symbols>
      <timelines>
           <DOMTimeline name="Монтажный кадр 1">
                <layers>
                     <DOMLayer name="Слой 1" color="#4F80FF" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
-                                   <elements/>
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.events.*;
+import flash.display.MovieClip;
+
+var points = new Array();
+var i = 1;
+var px, py;
+var sp = p1, fp = null;
+var sto1, sto2;
+
+cube.x = sp.x;
+cube.y = sp.y;
+
+stage.addEventListener(MouseEvent.CLICK, getPoint);
+function getPoint(e:MouseEvent){
+	points = new Array();
+	i = 1;
+	fp = e.target;
+	sto1 = sp.name.split('p')[1];
+	sto2 = fp.name.split('p')[1];
+	if(sto1 < sto2){
+		for(var ip = sto1; ip <= sto2; ip++){
+			points.push(root['p' + ip]);
+		}
+	} else {
+		for(var ip1 = sto1; ip1 >= sto2; ip1--){
+			points.push(root['p' + ip1]);
+		}
+	}
+	
+}
+
+stage.addEventListener(Event.ENTER_FRAME, main);
+function main(e:Event){
+	px = cube.x;
+	py = cube.y;
+	if(sto1 < sto2){
+		moveP(sto2);
+	} else{
+		moveP(sto1);
+	}
+	
+	
+	//trace("x: " + cube.x + "; y: " + cube.y);
+}
+
+function moveP(n){
+	n--;
+	var pxb = false, pyb = false;
+	
+	if(i <= n)
+		if(px != points[i].x){
+			if(px < points[i].x){
+				cube.x += 2;
+			} else{
+				cube.x -= 2;	
+			}
+		} else {
+			pxb = true;
+		}
+	
+	if(i <= n)
+		if(py != points[i].y){
+			if(py < points[i].y){
+					cube.y += 2;
+				} else{
+					cube.y -= 2;	
+				}
+		} else {
+			pyb = true;
+		}
+	
+	
+	if(pxb && pyb){
+		i++;
+		pxb = false;
+		pyb = false;
+		sp = fp;
+	}
+}
+]]></script>
+                                   </Actionscript>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="point" name="p1" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="132" ty="592"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p2" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="212" ty="566"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p3" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="298" ty="548"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p4" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="414" ty="570"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="point" name="p5" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="550" ty="626"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="cube" name="cube" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="117.25" ty="477.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -13,5 +148,26 @@
           </DOMTimeline>
      </timelines>
      <PrinterSettings/>
-     <publishHistory/>
+     <publishHistory>
+          <PublishItem publishSize="1523" publishTime="1449969474"/>
+          <PublishItem publishSize="1523" publishTime="1449969435"/>
+          <PublishItem publishSize="1513" publishTime="1449969379"/>
+          <PublishItem publishSize="1513" publishTime="1449969370"/>
+          <PublishItem publishSize="1508" publishTime="1449969359"/>
+          <PublishItem publishSize="1509" publishTime="1449969283"/>
+          <PublishItem publishSize="1509" publishTime="1449969277"/>
+          <PublishItem publishSize="1509" publishTime="1449969262"/>
+          <PublishItem publishSize="1514" publishTime="1449969138"/>
+          <PublishItem publishSize="1522" publishTime="1449969054"/>
+          <PublishItem publishSize="1513" publishTime="1449969026"/>
+          <PublishItem publishSize="1512" publishTime="1449969017"/>
+          <PublishItem publishSize="1525" publishTime="1449968968"/>
+          <PublishItem publishSize="1502" publishTime="1449968923"/>
+          <PublishItem publishSize="1493" publishTime="1449968901"/>
+          <PublishItem publishSize="1486" publishTime="1449968788"/>
+          <PublishItem publishSize="1471" publishTime="1449968750"/>
+          <PublishItem publishSize="1471" publishTime="1449968733"/>
+          <PublishItem publishSize="1478" publishTime="1449968711"/>
+          <PublishItem publishSize="1466" publishTime="1449968696"/>
+     </publishHistory>
 </DOMDocument>

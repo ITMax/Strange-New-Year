@@ -1,0 +1,201 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <symbols>
+          <Include href="cube.xml" loadImmediate="false" itemID="566ccfe6-00000023" lastModified="1449971686"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Монтажный кадр 1">
+               <layers>
+                    <DOMLayer name="Слой 1" color="#4F80FF" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.events.*;
+
+c1.hp = 100;
+c1.energy = 100;
+c1.damage = 40;
+
+c2.hp = 100;
+c2.energy = 100;
+c2.damage = 30;
+
+
+var queue = 1;
+
+stage.addEventListener(Event.ENTER_FRAME, main);
+function main(e:Event){
+	hp1.text = "HP: " + c1.hp;
+	energy1.text = "Energy: " + c1.energy;
+	damage1.text = "Damage: " + c1.damage;
+	
+	hp2.text = "HP: " + c2.hp;
+	energy2.text = "Energy: " + c2.energy;
+	damage2.text = "Damage: " + c2.damage;
+	
+	attack();
+	
+	if(c1.hp < 0){
+		removeChild(c1);
+		c1.hp = 0;
+		c1.energy = 0;
+		c1.damage = 0;
+	}
+	
+	if(c2.hp < 0){
+		removeChild(c2);
+		c2.hp = 0;
+		c2.energy = 0;
+		c2.damage = 0;
+	}
+}
+
+function attack():void{
+	if(queue == 1){
+		c1.removeEventListener(MouseEvent.CLICK, fight1);
+		c2.addEventListener(MouseEvent.CLICK, fight);
+	}
+	if(queue == 2){
+		c2.removeEventListener(MouseEvent.CLICK, fight);
+		c1.addEventListener(MouseEvent.CLICK, fight1);
+	}
+}
+
+
+function fight(e:MouseEvent){
+	var enemy = e.target;
+	enemy.hp -= c1.damage;
+	queue = 2;
+}
+
+function fight1(e:MouseEvent){
+	var enemy = e.target;
+	enemy.hp -= c2.damage;
+	queue = 1;
+}]]></script>
+                                   </Actionscript>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="cube" name="c1" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="165.5" ty="171.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="cube" name="c2" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="280.5" ty="171.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText name="hp1" selected="true" fontRenderingMode="standard" width="125" height="24.15" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="15" ty="10"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="20" bitmapSize="400" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="energy1" selected="true" fontRenderingMode="standard" width="125" height="24.15" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="15" ty="39"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="20" bitmapSize="400" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="damage1" selected="true" fontRenderingMode="standard" width="125" height="24.15" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="15" ty="68"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="20" bitmapSize="400" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="hp2" selected="true" fontRenderingMode="standard" width="125" height="24.15" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="416" ty="10"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="20" bitmapSize="400" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="energy2" selected="true" fontRenderingMode="standard" width="125" height="24.15" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="416" ty="39"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="20" bitmapSize="400" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="damage2" selected="true" fontRenderingMode="standard" width="125" height="24.15" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="416" ty="68"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="20" bitmapSize="400" face="Tahoma"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="1402" publishTime="1449973733"/>
+          <PublishItem publishSize="1392" publishTime="1449973698"/>
+          <PublishItem publishSize="1363" publishTime="1449973623"/>
+          <PublishItem publishSize="1363" publishTime="1449973602"/>
+          <PublishItem publishSize="1356" publishTime="1449973565"/>
+          <PublishItem publishSize="353" publishTime="1449973543"/>
+          <PublishItem publishSize="353" publishTime="1449973504"/>
+          <PublishItem publishSize="1342" publishTime="1449973476"/>
+          <PublishItem publishSize="1325" publishTime="1449973415"/>
+          <PublishItem publishSize="353" publishTime="1449973133"/>
+          <PublishItem publishSize="353" publishTime="1449973113"/>
+          <PublishItem publishSize="353" publishTime="1449973099"/>
+          <PublishItem publishSize="1288" publishTime="1449973067"/>
+          <PublishItem publishSize="1325" publishTime="1449973023"/>
+          <PublishItem publishSize="1325" publishTime="1449972995"/>
+          <PublishItem publishSize="1320" publishTime="1449972971"/>
+          <PublishItem publishSize="1320" publishTime="1449972943"/>
+          <PublishItem publishSize="1321" publishTime="1449972902"/>
+          <PublishItem publishSize="1122" publishTime="1449972491"/>
+          <PublishItem publishSize="1037" publishTime="1449972444"/>
+     </publishHistory>
+</DOMDocument>

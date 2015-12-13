@@ -18,14 +18,14 @@
     <jpegDefaultName>1</jpegDefaultName>
     <pngDefaultName>1</pngDefaultName>
     <swcDefaultName>1</swcDefaultName>
-    <flashFileName>Безымянный-1.swf</flashFileName>
-    <projectorWinFileName>Безымянный-1.exe</projectorWinFileName>
-    <projectorMacFileName>Безымянный-1.app</projectorMacFileName>
-    <htmlFileName>Безымянный-1.html</htmlFileName>
-    <gifFileName>Безымянный-1.gif</gifFileName>
-    <jpegFileName>Безымянный-1.jpg</jpegFileName>
-    <pngFileName>Безымянный-1.png</pngFileName>
-    <swcFileName>Безымянный-1.swc</swcFileName>
+    <flashFileName>single1.swf</flashFileName>
+    <projectorWinFileName>single1.exe</projectorWinFileName>
+    <projectorMacFileName>single1.app</projectorMacFileName>
+    <htmlFileName>single1.html</htmlFileName>
+    <gifFileName>single1.gif</gifFileName>
+    <jpegFileName>single1.jpg</jpegFileName>
+    <pngFileName>single1.png</pngFileName>
+    <swcFileName>single1.swc</swcFileName>
     <publishFormat id="BBC1F406-65F2-4219-9304-FA48C7549E44">0</publishFormat>
   </PublishFormatProperties>
   <PublishHtmlProperties enabled="true">
@@ -33,12 +33,12 @@
     <VersionInfo>16,0,0,0;14,0,0,0;13,0,0,0;12,0,0,0;11,9,0,0;11,8,0,0;11,7,0,0;11,6,0,0;11,5,0,0;11,4,0,0;11,3,0,0;11,2,0,0;11,1,0,0;10,3,0,0;10,2,153,0;10,1,52,0;9,0,124,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;</VersionInfo>
     <UsingDefaultContentFilename>1</UsingDefaultContentFilename>
     <UsingDefaultAlternateFilename>1</UsingDefaultAlternateFilename>
-    <ContentFilename>Безымянный-1_content.html</ContentFilename>
-    <AlternateFilename>Безымянный-1_alternate.html</AlternateFilename>
+    <ContentFilename>single1_content.html</ContentFilename>
+    <AlternateFilename>single1_alternate.html</AlternateFilename>
     <UsingOwnAlternateFile>0</UsingOwnAlternateFile>
     <OwnAlternateFilename></OwnAlternateFilename>
-    <Width>550</Width>
-    <Height>400</Height>
+    <Width>900</Width>
+    <Height>900</Height>
     <Align>0</Align>
     <Units>0</Units>
     <Loop>1</Loop>
@@ -110,8 +110,8 @@
     <TelemetryPassword></TelemetryPassword>
   </PublishFlashProperties>
   <PublishJpegProperties enabled="true">
-    <Width>550</Width>
-    <Height>400</Height>
+    <Width>900</Width>
+    <Height>900</Height>
     <Progressive>0</Progressive>
     <DPI>4718592</DPI>
     <Size>0</Size>
@@ -119,8 +119,8 @@
     <MatchMovieDim>1</MatchMovieDim>
   </PublishJpegProperties>
   <PublishGifProperties enabled="true">
-    <Width>550</Width>
-    <Height>400</Height>
+    <Width>900</Width>
+    <Height>900</Height>
     <Animated>0</Animated>
     <MatchMovieDim>1</MatchMovieDim>
     <Loop>1</Loop>

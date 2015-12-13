@@ -1,0 +1,90 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 3" itemID="566d0ee8-00000048" symbolType="graphic" lastModified="1449987816">
+  <timeline>
+    <DOMTimeline name="Tween 3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-215.95" ty="-886.55"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="18" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor color="#97999B"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!902 10116[900 11673 1105 13207!1105 13207[1322 14826 1764 16399"/>
+                    <Edge cubics="!902 10116(;901,11028 953,12068 1105,13207q902 10116Q900 11673q1105 13207)1105,13207;"/>
+                    <Edge cubics="!1105 13207(;1266,14411 1506,15482 1764,16399q1105 13207Q1322 14826q1764 16399);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-215.95" ty="-886.55"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="18" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor color="#97999B"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!7070 10033[7539 11543 7678 13124!7678 13124[7815 14669 7628 16215"/>
+                    <Edge cubics="!7070 10033(;7323,10847 7570,11893 7678,13124q7070 10033Q7539 11543q7678 13124);"/>
+                    <Edge cubics="!7678 13124(;7785,14329 7729,15381 7628,16215q7678 13124Q7815 14669q7628 16215);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-18.95" ty="-242.4"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="18" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor color="#97999B"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!-107 3319|112 12533"/>
+                    <Edge cubics="!-107 3319(;-34,6390 39,9461 112,12533q-107 3319 112 12533);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-213.1" ty="-880"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="18" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor color="#97999B"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!5144 16084|5362 25298"/>
+                    <Edge cubics="!5144 16084(;5217,19156 5289,22227 5362,25298q5144 16084 5362 25298);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

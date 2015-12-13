@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="check1b" itemID="566c9a44-0000003b" lastModified="1449957956" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Check_Blue/check5b" itemID="566cd3e8-000000fd" lastModified="1449973140" lastUniqueIdentifier="1">
   <timeline>
-    <DOMTimeline name="check1b">
+    <DOMTimeline name="check5b" currentFrame="1">
       <layers>
-        <DOMLayer name="Script" color="#4F80FF" autoNamed="false">
+        <DOMLayer name="Script" color="#4F80FF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -22,12 +22,12 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="santa_avatar" selected="true">
+                <DOMSymbolInstance libraryItemName="Persons_Blue/snowman_avatar">
                   <matrix>
-                    <Matrix a="0.462692260742188" d="0.462692260742188" tx="-2.55" ty="-1.05"/>
+                    <Matrix a="0.234024047851563" d="0.234024047851563" tx="-2.8" ty="-1.5"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="6.5" y="-0.1"/>
+                    <Point x="11.75" y="1.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -52,19 +52,19 @@
                     <Edge cubics="!875 1045(875,1045;972,935 1042,622 1240,560q875 1045Q904 1012q945 932Q992 834q1020 785Q1122 597q1240 560)1240,560;"/>
                   </edges>
                 </DOMShape>
-                <DOMSymbolInstance libraryItemName="santa_avatar" centerPoint3DX="-2.55" centerPoint3DY="-1.05">
+                <DOMSymbolInstance libraryItemName="Persons_Blue/snowman_avatar" selected="true">
                   <matrix>
-                    <Matrix a="0.462692260742188" d="0.462692260742188" tx="-2.55" ty="-1.05"/>
+                    <Matrix a="0.234024047851563" d="0.234024047851563" tx="-3" ty="-1.55"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="6.5" y="-0.1"/>
+                    <Point x="11.75" y="1.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Back" color="#4F80FF" autoNamed="false">
+        <DOMLayer name="Back" color="#4F80FF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

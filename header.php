@@ -2,7 +2,7 @@
 <?php
   if (empty($_SESSION['id']) and empty($_SESSION['username'])) {
 ?>
-<title>Welcome</title>
+<title>Welcome - Alpha Test v0.1</title>
 <?php
   } else {
 ?>

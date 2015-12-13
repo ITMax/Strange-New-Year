@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="boxDamagePlus" itemID="566d1c1c-00000085" lastModified="1449992680">
+  <timeline>
+    <DOMTimeline name="boxDamagePlus">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="10" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor color="#CCCCCC"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!-605 -605|605 -605!605 -605|605 605!605 605|-605 605!-605 605|-605 -605"/>
+                  </edges>
+                </DOMShape>
+                <DOMDynamicText width="100" height="120" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.154586791992188" d="0.142288208007813" tx="15.4" ty="-24.7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>D</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="87" bitmapSize="1740" face="KelsonSans-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

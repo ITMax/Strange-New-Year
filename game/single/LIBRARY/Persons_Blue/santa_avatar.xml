@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="santa_avatar" itemID="566c7c3a-0000001d" lastModified="1449950266">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Persons_Blue/santa_avatar" itemID="566cd28c-00000051" lastModified="1449972653">
   <timeline>
     <DOMTimeline name="santa_avatar">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -33,7 +33,7 @@
                     <Edge cubics="!2011 1117(2011,1117;2640,1117 2931,1493 2931,2121q2011 1117Q2473 1117q2707 1384Q2931 1639q2931 2121);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -61,7 +61,7 @@
                     <Edge cubics="!2306 1704(2306,1704;2518,1704 2690,1875 2690,2087q2306 1704Q2465 1704q2578 1816Q2690 1928q2690 2087);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -89,7 +89,7 @@
                     <Edge cubics="!1651 1750(1651,1750;1863,1750 2035,1922 2035,2134q1651 1750Q1810 1750q1923 1863Q2035 1975q2035 2134);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -117,7 +117,7 @@
                     <Edge cubics="!2582 1990(;2621,1990 2652,2021 2652,2059q2582 1990Q2611 1990q2632 2010Q2652 2030q2652 2059);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -145,7 +145,7 @@
                     <Edge cubics="!1923 2087(1923,2087;1961,2087 1992,2118 1992,2157q1923 2087Q1952 2087q1972 2107Q1992 2128q1992 2157);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -178,10 +178,7 @@
                     <Edge cubics="!1273 2557(1273,2557;1173,2628 1080,2828 1099,3077q1273 2557Q1192 2615q1141 2750Q1086 2901q1099 3077);"/>
                   </edges>
                 </DOMShape>
-                <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="-423.25" ty="132.15"/>
-                  </matrix>
+                <DOMGroup>
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
@@ -224,10 +221,7 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="-423.25" ty="132.15"/>
-                  </matrix>
+                <DOMGroup>
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
@@ -268,10 +262,7 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="-423.25" ty="132.15"/>
-                  </matrix>
+                <DOMGroup>
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
@@ -312,10 +303,7 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="-423.25" ty="132.15"/>
-                  </matrix>
+                <DOMGroup>
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
@@ -356,10 +344,7 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="-423.25" ty="132.15"/>
-                  </matrix>
+                <DOMGroup>
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
@@ -400,7 +385,7 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -431,7 +416,7 @@
                     <Edge cubics="!2918 2797(2918,2797;2413,2841 2024,2876 1931,2677q2918 2797Q2440 2839q2270 2828Q1994 2811q1931 2677)1931,2677;"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -462,10 +447,7 @@
                     <Edge cubics="!1030 2828(;1574,2872 1994,2907 2095,2708q1030 2828Q1545 2870q1729 2859Q2027 2842q2095 2708);"/>
                   </edges>
                 </DOMShape>
-                <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="-423.25" ty="132.15"/>
-                  </matrix>
+                <DOMGroup>
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
@@ -512,10 +494,7 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="-423.25" ty="132.15"/>
-                  </matrix>
+                <DOMGroup>
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
@@ -563,46 +542,43 @@
                   </members>
                 </DOMGroup>
                 <DOMShape selected="true" isDrawingObject="true">
-                  <matrix>
-                    <Matrix tx="32.1" ty="172.55"/>
-                  </matrix>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#EC2026"/>
+                      <SolidColor color="#000099"/>
                     </FillStyle>
                   </fills>
                   <strokes>
                     <StrokeStyle index="1">
                       <SolidStroke scaleMode="normal" caps="none" weight="7" joints="miter" miterLimit="10">
                         <fill>
-                          <SolidColor color="#871719"/>
+                          <SolidColor color="#000033"/>
                         </fill>
                       </SolidStroke>
                     </StrokeStyle>
                   </strokes>
                   <edges>
                     <Edge fillStyle0="1" strokeStyle="1" edges="
-!285 -4476[388 -4728 312 -4946!312 -4946[202 -5260 -256 -5428!-256 -5428[-505 -5520 -775 -5547!-775 -5547[-1446 -5620 -1802 -5324!-1802 -5324[-1951 -5199 -2032 -5020!-2032 -5020[-2092 -4886 -2102 -4757!-2102 -4757[-2111 -4614 -2048 -4487
-!-2048 -4487[-2022 -4434 -2004 -4410!-2004 -4410[-1975 -4374 -1935 -4361!-1935 -4361[-1878 -4342 -1812 -4362!-1812 -4362[-1747 -4382 -1722 -4424!-1722 -4424[-1702 -4460 -1734 -4522!-1734 -4522[-1778 -4605 -1782 -4659!-1782 -4659[-1788
- -4759 -1732 -4852!-1732 -4852[-1669 -4954 -1568 -4974!-1568 -4974[-1489 -4990 -1406 -4965!-1406 -4965[-1314 -4938 -1302 -4877!-1302 -4877[-1292 -4831 -1328 -4692!-1328 -4692[-1361 -4567 -1328 -4487!-1328 -4487[-1299 -4417 -1199 -4369
-!-1199 -4369[-1131 -4336 -935 -4276!-935 -4276[-638 -4184 -497 -4164!-497 -4164[-269 -4132 -82 -4201!-82 -4201[136 -4280 285 -4476"/>
-                    <Edge cubics="!285 -4476(;327,-4579 378,-4756 312,-4946q285 -4476Q388 -4728q312 -4946);"/>
-                    <Edge cubics="!312 -4946(;138,-5441 -666,-5536 -775,-5547q312 -4946Q202 -5260q-256 -5428Q-505 -5520q-775 -5547);"/>
-                    <Edge cubics="!-775 -5547(;-940,-5565 -1449,-5618 -1802,-5324q-775 -5547Q-1446 -5620q-1802 -5324);"/>
-                    <Edge cubics="!-1802 -5324(-1802,-5324;-2025,-5137 -2092,-4890 -2102,-4757q-1802 -5324Q-1951 -5199q-2032 -5020Q-2092 -4886q-2102 -4757);"/>
-                    <Edge cubics="!-2102 -4757(-2102,-4757;-2104,-4726 -2110,-4612 -2048,-4487q-2102 -4757Q-2111 -4614q-2048 -4487);"/>
-                    <Edge cubics="!-2048 -4487(;-2021,-4431 -1995,-4381 -1935,-4361q-2048 -4487Q-2022 -4434q-2004 -4410Q-1975 -4374q-1935 -4361);"/>
-                    <Edge cubics="!-1935 -4361(;-1859,-4336 -1755,-4368 -1722,-4424q-1935 -4361Q-1878 -4342q-1812 -4362Q-1747 -4382q-1722 -4424);"/>
-                    <Edge cubics="!-1722 -4424(-1722,-4424;-1684,-4491 -1773,-4540 -1782,-4659q-1722 -4424Q-1702 -4460q-1734 -4522Q-1778 -4605q-1782 -4659);"/>
-                    <Edge cubics="!-1782 -4659(;-1790,-4782 -1711,-4946 -1568,-4974q-1782 -4659Q-1788 -4759q-1732 -4852Q-1669 -4954q-1568 -4974);"/>
-                    <Edge cubics="!-1568 -4974(;-1475,-4993 -1319,-4964 -1302,-4877q-1568 -4974Q-1489 -4990q-1406 -4965Q-1314 -4938q-1302 -4877);"/>
-                    <Edge cubics="!-1302 -4877(;-1278,-4761 -1388,-4631 -1328,-4487q-1302 -4877Q-1292 -4831q-1328 -4692Q-1361 -4567q-1328 -4487);"/>
-                    <Edge cubics="!-1328 -4487(;-1286,-4385 -1158,-4344 -935,-4276q-1328 -4487Q-1299 -4417q-1199 -4369Q-1131 -4336q-935 -4276);"/>
-                    <Edge cubics="!-935 -4276(;-625,-4180 -361,-4099 -82,-4201q-935 -4276Q-638 -4184q-497 -4164Q-269 -4132q-82 -4201);"/>
-                    <Edge cubics="!-82 -4201(;-5,-4229 151,-4300 285,-4476q-82 -4201Q136 -4280q285 -4476);"/>
+!927 -1025[1030 -1277 954 -1495!954 -1495[844 -1809 386 -1977!386 -1977[137 -2069 -133 -2096!-133 -2096[-804 -2169 -1160 -1873!-1160 -1873[-1309 -1748 -1390 -1569!-1390 -1569[-1450 -1435 -1460 -1306!-1460 -1306[-1469 -1163 -1406 -1036
+!-1406 -1036[-1380 -983 -1362 -959!-1362 -959[-1333 -923 -1293 -910!-1293 -910[-1236 -891 -1170 -911!-1170 -911[-1105 -931 -1080 -973!-1080 -973[-1060 -1009 -1092 -1071!-1092 -1071[-1136 -1154 -1140 -1208!-1140 -1208[-1146 -1308 -1090
+ -1401!-1090 -1401[-1027 -1503 -926 -1523!-926 -1523[-847 -1539 -764 -1514!-764 -1514[-672 -1487 -660 -1426!-660 -1426[-650 -1380 -686 -1241!-686 -1241[-719 -1116 -686 -1036!-686 -1036[-657 -966 -557 -918!-557 -918[-489 -885 -293 -825
+!-293 -825[4 -733 145 -713!145 -713[373 -681 560 -750!560 -750[778 -829 927 -1025"/>
+                    <Edge cubics="!927 -1025(;969,-1128 1020,-1305 954,-1495q927 -1025Q1030 -1277q954 -1495);"/>
+                    <Edge cubics="!954 -1495(;780,-1990 -24,-2085 -133,-2096q954 -1495Q844 -1809q386 -1977Q137 -2069q-133 -2096);"/>
+                    <Edge cubics="!-133 -2096(;-298,-2114 -807,-2167 -1160,-1873q-133 -2096Q-804 -2169q-1160 -1873);"/>
+                    <Edge cubics="!-1160 -1873(-1160,-1873;-1383,-1686 -1450,-1439 -1460,-1306q-1160 -1873Q-1309 -1748q-1390 -1569Q-1450 -1435q-1460 -1306);"/>
+                    <Edge cubics="!-1460 -1306(-1460,-1306;-1462,-1275 -1468,-1161 -1406,-1036q-1460 -1306Q-1469 -1163q-1406 -1036);"/>
+                    <Edge cubics="!-1406 -1036(;-1379,-980 -1353,-930 -1293,-910q-1406 -1036Q-1380 -983q-1362 -959Q-1333 -923q-1293 -910);"/>
+                    <Edge cubics="!-1293 -910(;-1217,-885 -1113,-917 -1080,-973q-1293 -910Q-1236 -891q-1170 -911Q-1105 -931q-1080 -973);"/>
+                    <Edge cubics="!-1080 -973(-1080,-973;-1042,-1040 -1131,-1089 -1140,-1208q-1080 -973Q-1060 -1009q-1092 -1071Q-1136 -1154q-1140 -1208);"/>
+                    <Edge cubics="!-1140 -1208(;-1148,-1331 -1069,-1495 -926,-1523q-1140 -1208Q-1146 -1308q-1090 -1401Q-1027 -1503q-926 -1523);"/>
+                    <Edge cubics="!-926 -1523(;-833,-1542 -677,-1513 -660,-1426q-926 -1523Q-847 -1539q-764 -1514Q-672 -1487q-660 -1426);"/>
+                    <Edge cubics="!-660 -1426(;-636,-1310 -746,-1180 -686,-1036q-660 -1426Q-650 -1380q-686 -1241Q-719 -1116q-686 -1036);"/>
+                    <Edge cubics="!-686 -1036(;-644,-934 -516,-893 -293,-825q-686 -1036Q-657 -966q-557 -918Q-489 -885q-293 -825);"/>
+                    <Edge cubics="!-293 -825(;17,-729 281,-648 560,-750q-293 -825Q4 -733q145 -713Q373 -681q560 -750);"/>
+                    <Edge cubics="!560 -750(;637,-778 793,-849 927,-1025q560 -750Q778 -829q927 -1025);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -629,7 +605,7 @@
                     <Edge cubics="!495 879(;650,879 776,1005 776,1160q495 879Q611 879q694 961Q776 1044q776 1160);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -656,7 +632,7 @@
                     <Edge cubics="!1226 1130(;1358,1130 1464,1236 1464,1368q1226 1130Q1325 1130q1395 1200Q1464 1269q1464 1368);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -684,7 +660,7 @@
                     <Edge cubics="!1555 1130(;1686,1130 1793,1236 1793,1368q1555 1130Q1653 1130q1723 1200Q1793 1269q1793 1368);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -712,7 +688,7 @@
                     <Edge cubics="!1878 1130(;2009,1130 2115,1236 2115,1368q1878 1130Q1976 1130q2046 1200Q2115 1269q2115 1368);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
@@ -740,7 +716,7 @@
                     <Edge cubics="!2208 1117(;2340,1117 2446,1223 2446,1354q2208 1117Q2307 1117q2377 1186Q2446 1256q2446 1354);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-90.2" ty="-109.05"/>
                   </matrix>
